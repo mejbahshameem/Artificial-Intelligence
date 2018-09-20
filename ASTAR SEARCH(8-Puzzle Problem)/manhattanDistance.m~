@@ -1,0 +1,5 @@
+function m=manhattanDistance(stateIn)
+% for any given node nodeIn calculate the manhattan distances
+m=0;
+
+end

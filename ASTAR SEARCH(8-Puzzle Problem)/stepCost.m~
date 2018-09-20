@@ -1,0 +1,3 @@
+function cost=stepCost(action)
+	cost=1;
+end

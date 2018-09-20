@@ -1,0 +1,13 @@
+function ca=clusterAssign(x,c,k)
+ca=[];
+    for i=1:size(x,1)
+        min=intmax;
+        for j=1:k
+            if Distance(x(i,:),c(j,:))<min
+                min= Distance(x(i,:),c(j,:));
+                rem=j;
+            end
+        end
+        ca=[ca; x(i,:) 
+    end
+end

@@ -1,0 +1,32 @@
+function steps=astar(stateInitial)
+% this function will take the nodeInitial and return steps as a vector of
+% steps here 0=UP 1= DOWN 2=RIGHT 3=LEFT 
+
+%set up the initialnode
+
+steps=[];
+
+field1='state';
+field2='steps';
+field3='cost';
+value1=stateInitial;
+value2=[];
+value3=0;
+initialNode=struct(field1,value1,field2,value2,field3,pathCostGx(stateInitial)+manhattanDistance(stateInitial));
+
+frontier=[initialNode];
+closedList=[];
+
+%while length(frontier)~=0
+    % sort the frontier according to g(x)+h(x) or move the element with the smallest value to the top
+    
+    % extract a solution from top
+
+    %delete it
+
+    % goal check
+
+    % now expand and add the children to the frontier
+
+%end
+end

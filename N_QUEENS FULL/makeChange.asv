@@ -1,0 +1,10 @@
+function newqueen=makeChange(n,x)
+    column_no= randi(n);
+    value=randi(n);
+    while true
+        if x(column_no)~=value
+            
+        end
+    end
+    newqueen=x;
+end

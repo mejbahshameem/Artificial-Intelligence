@@ -1,0 +1,8 @@
+function d=diagonalConflict(x)
+    
+    for i=1:length(x)
+        for j=i+1:length(x)
+            if abs(i-j)==abs(x[i]-)
+        end
+    end
+end

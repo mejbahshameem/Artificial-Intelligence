@@ -1,0 +1,1 @@
+Run "backpropagation.m" with input parameter(x,y,eta,number of iteration)

@@ -1,0 +1,11 @@
+function m=mutation(queen,row)
+   m=[];
+   m1=[];
+   len=length(queen(1,:));
+   for i=1:row
+       flip_pos=randi(len);
+       flip_value=randi(len);
+       m1=[]
+        m=[m; queen()]
+   end
+end

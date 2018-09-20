@@ -1,0 +1,8 @@
+function gx=pathCostGx(steps)
+
+% find the pathCost g(x) from the steps 
+
+gx=0;
+for i=1:length(steps)
+	gx=gx+stepCost(steps(i));
+end
