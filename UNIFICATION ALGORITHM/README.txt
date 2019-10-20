@@ -1,0 +1,1 @@
+All codes in this file are not written by me. Some of the codes of Unification algorithm were given by the lecturers. A skeleton code (with ToDos) and necessary objects were given in other files too. I implemented the Unification algorithm. All other necessary codes to implement this algorithm were given. 
